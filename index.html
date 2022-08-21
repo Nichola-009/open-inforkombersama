@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<title> 🖥️ Ojo Di Banding Bandingke
+</title>
+
+<body>
+  <!--Audio-->
+    <iframe src="/music/250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio id="player" autoplay loop>
+      <source src="/music/audio.mp3" type="audio/mp3">
+    </audio>
+  <!--Card-->
+  <div class="min-h-screen bg-gray-50 py-6 flex flex-col justify-center relative overflow-hidden sm:py-12">
+    <img src="/img/beams.jpg" alt="" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-none"
+      width="1308" />
+    <div
+      class="absolute inset-0 bg-[url(/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]">
+    </div>
+    <div
+      class="relative px-20 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:mx-auto sm:rounded-lg sm:px-10">
+      <div class="max-w-md mx-auto">
+        <div class="flex flex-wrap gap-4">
+
+          <h1 class="text-3xl font-bold text-clifford">
+            Rek!!! Landing Pagenya Belum Siap Nih... Adakah Yang Pingin Ngebuatin😁?!
+          </h1>
+
+          <!--Tombol 1-->
+          <a href=""><button
+              class="relative group overflow-hidden px-6 h-12 rounded-full flex space-x-2 items-center bg-gradient-to-r from-orange-500 to-red-500 hover:to-red-700">
+              <span class="relative text-sm text-white">📖 Wiki</span>
+              <div class="flex items-center -space-x-3 translate-x-3">
+                <div
+                  class="w-2.5 h-[1.6px] rounded bg-white origin-left scale-x-0 transition duration-300 group-hover:scale-x-100">
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 stroke-white -translate-x-2 transition duration-300 group-hover:translate-x-0"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </button>
+          </a>
+          <!--Tombol Kedua-->
+          <a href="pamer-inforkom.loca.lt/mamerin/mamerin.html"><button
+              class="relative group overflow-hidden px-6 h-12 rounded-full flex space-x-2 items-center bg-gradient-to-r from-orange-500 to-red-500 hover:to-red-700">
+              <span class="relative text-sm text-white">🚀 Share Project</span>
+              <div class="flex items-center -space-x-3 translate-x-3">
+                <div
+                  class="w-2.5 h-[1.6px] rounded bg-white origin-left scale-x-0 transition duration-300 group-hover:scale-x-100">
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 stroke-white -translate-x-2 transition duration-300 group-hover:translate-x-0"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </button>
+          </a>
+          <!--Tombol Ketiga-->
+          <a href="https://www.w3schools.com/" target="_blank"><button
+              class="relative group overflow-hidden px-6 h-12 rounded-full flex space-x-2 items-center bg-gradient-to-r from-orange-500 to-red-500 hover:to-red-700">
+              <span class="relative text-sm text-white">⌨️ Yuk! Belajar Ngoding</span>
+              <div class="flex items-center -space-x-3 translate-x-3">
+                <div
+                  class="w-2.5 h-[1.6px] rounded bg-white origin-left scale-x-0 transition duration-300 group-hover:scale-x-100">
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 stroke-white -translate-x-2 transition duration-300 group-hover:translate-x-0"
+                  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </button>
+
+            <!--Tombol keempat-->
+            <a href=""><button
+                class="relative group overflow-hidden px-6 h-12 rounded-full flex space-x-2 items-center bg-gradient-to-r from-orange-500 to-red-500 hover:to-red-700">
+                <span class="relative text-sm text-white">😼 Github</span>
+                <div class="flex items-center -space-x-3 translate-x-3">
+                  <div
+                    class="w-2.5 h-[1.6px] rounded bg-white origin-left scale-x-0 transition duration-300 group-hover:scale-x-100">
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 stroke-white -translate-x-2 transition duration-300 group-hover:translate-x-0"
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </button>
+            </a>
+            <p class="text-1xl font-bold text-clifford">
+              Kita Pengen Arek Inforkom WEC A-2022 Bisa Terus Berkembang Bersama, Selalu Kompak... Dan Peduli Satu Sama Lain Klo Ada Masalah hehe... Ayoo Berjuang Bareng Rekkk!!! . Love You ❤️///
+
+
+              Maaf Klo Lemot Soale Servernya Laptop Ane Sendiri. <p class="font-mono"><a href="">Lihat Disini</a></p>
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
