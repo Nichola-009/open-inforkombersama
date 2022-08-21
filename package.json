@@ -1,0 +1,24 @@
+{
+  "name": "open-inforkombersama",
+  "version": "1.0.0",
+  "description": "Dibuat Cacat Untuk Kesempurnaan Bersama",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/css/main.css -o ./src/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nichola-009/open-inforkombersama.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nichola-009/open-inforkombersama/issues"
+  },
+  "homepage": "https://github.com/Nichola-009/open-inforkombersama#readme"
+}
